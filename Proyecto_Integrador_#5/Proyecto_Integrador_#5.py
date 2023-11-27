@@ -86,6 +86,6 @@ class JuegoArchivo:
 # verifica si el script se esta ejecutando como programa principal, se configura la ruta a la carppeta mapas y se 
 # inicia el juego
 if __name__ == "__main__":
-    path_a_mapas = "/ruta/a/tu/carpeta/de/mapas"
+    path_a_mapas = "https://github.com/KpinedaS/ADASCHOOL/blob/main/map1.txt"
     juego_archivo = JuegoArchivo(path_a_mapas)
     juego_archivo.iniciar_juego()
